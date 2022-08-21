@@ -23,3 +23,26 @@ body{
 
 
 }
+.wrapper img{
+    width: 600px;
+    max-width: 75%;
+
+
+}
+.main-btn{
+    padding: 15%;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor:pointer;
+
+
+}
+@media(max-width:767px){
+    .wrapper h3{
+        font-size: 2rem;
+    }
+}
